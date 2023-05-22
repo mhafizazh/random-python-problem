@@ -22,16 +22,15 @@ print("String in uppercase: %s" % s.upper())
 print("String in lowercase: %s" % s.lower())
 
 # Check how a string starts
-if s.startswith("Str"):
-    print("String starts with 'Str'. Good!")
-else:
-    print("It's not the correct string :(")
-
 # Check how a string ends
-if s.endswith("ome!"):
+if s.startswith("Str") and s.endswith("ome!"):
+    print("String starts with 'Str'. Good!")
     print("String ends with 'ome!'. Good!")
 else:
     print("It's not the correct string :(")
+
+
+
 
 # Split the string into three separate strings,
 # each containing only a word
