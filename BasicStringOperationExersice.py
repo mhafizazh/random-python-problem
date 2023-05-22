@@ -1,6 +1,4 @@
-#Try to fix the code to print out the correct information by changing the string.
-
-s = "Hi therea! what shoul"
+s = "String are awsome!"
 # Length should be 20
 print("Length of s = %d" % len(s))
 
@@ -26,10 +24,14 @@ print("String in lowercase: %s" % s.lower())
 # Check how a string starts
 if s.startswith("Str"):
     print("String starts with 'Str'. Good!")
+else:
+    print("It's not the correct string :(")
 
 # Check how a string ends
 if s.endswith("ome!"):
     print("String ends with 'ome!'. Good!")
+else:
+    print("It's not the correct string :(")
 
 # Split the string into three separate strings,
 # each containing only a word
